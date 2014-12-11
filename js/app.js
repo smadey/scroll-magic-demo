@@ -86,6 +86,6 @@ $(document).ready(function() {
         triggerElement: '.container',
         triggerHook: 'onLeave',
         duration: 1200,
-        offset: 300
+        offset: -100
     }).setTween(pinAnim).setPin('.container').addTo(controller)
 });

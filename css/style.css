@@ -1,23 +1,26 @@
-.placeholder {
-    height: 500px;
-}
-
 .wrapper {
     position: relative;
     width: 1110px;
     margin: 0 auto
 }
+
 .subject {
     position: absolute;
     top: 100px;
     left: 0
 }
+
 .room, .room-mask {
     width: 100%;
     height: 608px
 }
+
 .room-mask {
     position: absolute;
     top: 0;
     left: 0
+}
+
+.placeholder {
+    height: 200px;
 }
